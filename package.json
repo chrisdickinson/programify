@@ -14,6 +14,9 @@
     "glsl",
     "programify"
   ],
+  "bin": {
+    "programify": "./bin/programify"
+  },
   "author": "Chris Dickinson <chris@neversaw.us>",
   "license": "MIT",
   "dependencies": {
