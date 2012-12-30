@@ -22,7 +22,19 @@ shorthand = {
 
 function help() {
 /*
+programify [-v|--vertex vertex file] [-f|--fragment fragment file] [-h|--help] file, file...
 
+  turn a series of glsl files into a `require`-able JS module.
+
+  outputs the program on stdout.
+
+  arguments:
+
+    --vertex path, -v path    consider the file a vertex shader, and include it
+                              in the output. 
+
+    --fragment path, -f path  consider the file a fragment shader, and include it
+                              in the output.
 */
 
   var str = help+''
